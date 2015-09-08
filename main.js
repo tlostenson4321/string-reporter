@@ -17,6 +17,6 @@ console.log(upperCase)
 console.log(sentence)
 console.log(substring)
 		
-var alertish = response + length + third + lowerCase + upperCase + sentence + substring
+var alertish = response + "\n" + length + "\n" + third + "\n" + lowerCase + "\n" + upperCase + "\n" + sentence + "\n" + substring
 
 alert ( alertish )
