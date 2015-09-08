@@ -2,14 +2,21 @@ var word = prompt("Please enter in a single word")
 	console.log(word)
 
 	var response = "The word you entered was: " + word
-	var length = word.length
-	var third = word.charAt(2)
-	var lowerCase = word.toLowerCase
-	var upperCase = word.toUpperCase
-	var sentence = "I know that " + word + "is a word."
-	var substring = word.substring(1, 4)
-	
+	var length = "The length of the word you entered is: "  + word.length
+	var third = "The third letter in your word is: " + word.charAt(2)
+	var lowerCase = "Lowercase: " + word.toLowerCase()
+	var upperCase = "Uppercase: " + word.toUpperCase()
+	var sentence = "I know that " + word + " is a word."
+	var substring = "Subword: " + word.substring(1, 4)
 
-alert ( "The word you entered was: " + word, word.length);
-
+console.log(response)
+console.log(length)
+console.log(third)
+console.log(lowerCase)
+console.log(upperCase)
+console.log(sentence)
+console.log(substring)
 		
+var alertish = response + length + third + lowerCase + upperCase + sentence + substring
+
+alert ( alertish )
